@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     # 아래 destination은 여러분이 해당 리포지토리를 클론한 위치로 설정해주세요.
-    destination: ~/fe-sprint-practice-deploy
+    destination: /home/ssm-user/fe-sprint-practice-deploy
 
 hooks:
   ApplicationStop:

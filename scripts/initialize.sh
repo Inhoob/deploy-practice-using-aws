@@ -1,6 +1,6 @@
 #!/bin/bash
 # 아래 위치는 여러분이 해당 리포지토리를 클론한 위치로 설정해주세요.
-cd ../fe-sprint-practice-deploy/server
+cd /home/ssm-user/fe-sprint-practice-deploy/server
 npm install
 npm install pm2@latest -g
 sudo apt-get update
